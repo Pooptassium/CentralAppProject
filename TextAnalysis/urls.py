@@ -3,5 +3,5 @@ from TextAnalysis import views
 
 urlpatterns = [
     path("", views.home),
-    path("counter", views.counter)
+    path("result", views.result)
 ]

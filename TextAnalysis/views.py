@@ -4,6 +4,11 @@ from django.shortcuts import render
 def home(request):
     return render(request, "textanalysis/home.html")
 
-def counter(request):
+def result(request):
     textInput = request.POST["text"]
-    return render(request, "textanalysis/result.html", textInput)
+
+    context = {
+        "textResult" : textInput
+    }
+
+    return render(request, "textanalysis/result.html", context)
