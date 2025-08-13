@@ -1,6 +1,10 @@
-<form method = "POST" action = "result">
-    {% csrf_token %}
-    <textarea name = "text"></textarea>
-    <br>
-    <input type="submit">
-</form>
+{% extends "core/_main.html" %}
+
+{% block content %}
+    <form method = "POST" action = "result">
+        {% csrf_token %}
+        <textarea name = "text"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+{% endblock %}

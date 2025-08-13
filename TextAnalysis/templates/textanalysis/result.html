@@ -1,13 +1,17 @@
-Original Text : {{textInput}}
+{% extends "core/_main.html" %}
 
-<br />
+{% block content %}
+    Original Text : {{textResult}}
 
-Characters Count: {{char_count}}
+    <br />
 
-<br />
+    Characters Count: {{char_count}}
 
-Word Count: {{word_count}}
+    <br />
 
-<br />
+    Word Count: {{word_count}}
 
-Sentiment: {{sentiment}}
+    <br />
+
+    Sentiment: {{sentiment}}
+{% endblock %}

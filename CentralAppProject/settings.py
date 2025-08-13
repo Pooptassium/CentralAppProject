@@ -56,7 +56,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR,
-            "TextAnalysis/templates"],
+            "TextAnalysis/templates",
+            "core/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
