@@ -57,7 +57,8 @@ TEMPLATES = [
         'DIRS': [
             BASE_DIR,
             "TextAnalysis/templates",
-            "core/templates"],
+            "core/templates",
+            "schoolAPI/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
