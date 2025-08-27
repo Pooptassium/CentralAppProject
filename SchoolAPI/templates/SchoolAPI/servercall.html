@@ -1,0 +1,8 @@
+{% extends "core/_main.html" %}
+
+{% block content %}
+    <h1>Server Call</h1>
+    {% for school in schools%}
+        {{school.0}} - {{school.1}}
+        <br />
+{% endblock %}

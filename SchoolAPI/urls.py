@@ -1,5 +1,5 @@
 from django.urls import path
-from core import views
+from SchoolAPI import views
 
 urlpatterns = [
     path("", views.home),
