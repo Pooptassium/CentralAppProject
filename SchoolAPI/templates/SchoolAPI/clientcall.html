@@ -1,5 +1,21 @@
 {% extends "core/_main.html" %}
 
 {% block content %}
+    {% load static %}
+
+    <script src="{% static 'js/clientcall.js'%}"></script>
+
     <h1>Client Call</h1>
+    <table style="max-height: 45vh;" id="tbSchool">
+        <thead>
+            <tr>
+                <th>School Name</th>
+                <th>Grade Level</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+    </table>
 {% endblock %}

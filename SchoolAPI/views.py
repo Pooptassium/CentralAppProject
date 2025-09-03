@@ -31,4 +31,4 @@ def servercall(request):
     return render(request, "schoolapi/servercall.html", context)
 
 def clientcall(request):
-    return render(request, "schoolapi/clientcall.hhtml")
+    return render(request, "schoolapi/clientcall.html")
