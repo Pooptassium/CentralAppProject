@@ -58,7 +58,8 @@ TEMPLATES = [
             BASE_DIR,
             "TextAnalysis/templates",
             "core/templates",
-            "schoolAPI/templates"],
+            "schoolAPI/templates",
+            "youtube/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

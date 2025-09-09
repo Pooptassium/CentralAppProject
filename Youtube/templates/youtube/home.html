@@ -1,0 +1,10 @@
+{% extends "core/_main.html" %}
+
+{% block content %}
+    <form method = "POST" action = "servercall">
+        {% csrf_token %}
+        <textarea name = "text"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+{% endblock %}
